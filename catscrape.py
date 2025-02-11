@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 email = "maxwell.souchereau@edu.sait.ca"
-password = "MUnvDVAeWcX8aF!"
+password = "Password Here"
 
 options = Options()
 options.add_argument("--headless")
