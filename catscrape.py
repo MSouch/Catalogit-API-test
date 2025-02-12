@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 email = "maxwell.souchereau@edu.sait.ca"
-password = "MUnvDVAeWcX8aF!"
+password = "SECRET_PASSWORD"
 
 options = Options()
 options.add_argument("--headless")
@@ -41,7 +41,8 @@ time.sleep(3)
 urls = [
     "https://catalogit.app/collections/d8ad2d30-d37f-11ef-942e-a9ab53bb22fc/entries/8460b230-d387-11ef-970e-0dcfb0428747",
     "https://catalogit.app/collections/d8ad2d30-d37f-11ef-942e-a9ab53bb22fc/entries/4d18cef0-d384-11ef-970e-0dcfb0428747",
-    "https://catalogit.app/collections/d8ad2d30-d37f-11ef-942e-a9ab53bb22fc/entries/8eac5160-d38a-11ef-970e-0dcfb0428747"
+    "https://catalogit.app/collections/d8ad2d30-d37f-11ef-942e-a9ab53bb22fc/entries/8eac5160-d38a-11ef-970e-0dcfb0428747",
+    "https://catalogit.app/collections/d8ad2d30-d37f-11ef-942e-a9ab53bb22fc/entries/badcfa50-d385-11ef-970e-0dcfb0428747"
 ]
 
 for url in urls:
